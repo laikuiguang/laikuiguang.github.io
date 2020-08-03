@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://laikuiguang.github.io/</id>
     <title>赖奎光</title>
-    <updated>2020-08-03T13:38:25.473Z</updated>
+    <updated>2020-08-03T13:40:16.592Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://laikuiguang.github.io/"/>
     <link rel="self" href="https://laikuiguang.github.io/atom.xml"/>
@@ -20,13 +20,13 @@
 1.获取本机网卡 ifconfig<br>
 2.获取网关以内存在的活跃ip地址  nmap -sP  网关<br>
 3.利用ip进行攻击   arpspoof -i 本机网卡 -t 对方ip地址  -r  网关</p>
-<p>🔅🔅🔅🔅🔅🔅🔅🔅🔅🔅🔅🔅🔅🔅🔅🔅🔅🔅🔅🔅🔅🔅🔅🔅🔅🔅🔅🔅🔅🔅🔅🔅🔅🔅🔅🔅🔅🔅🔅</p>
+<p>🔅🔅🔅🔅🔅🔅🔅🔅🔅🔅🔅🔅🔅🔅🔅🔅🔅🔅🔅🔅🔅🔅🔅🔅🔅🔅🔅🔅🔅🔅🔅🔅🔅🔅🔅🔅🔅🔅</p>
 <p>局域网攻击-同步获取游览网页信息😀<br>
 1.获取对方ip<br>
 2.进行欺骗（设置流量转发） echo 1（0是默认不转发）&gt;/proc/sys/net/ipv4/ip_forward<br>
 3.进行攻击<br>
 4.利用工具driftnet -i ech0  获取对方当前游览网页图片</p>
-<p>🔅🔅🔅🔅🔅🔅🔅🔅🔅🔅🔅🔅🔅🔅🔅🔅🔅🔅🔅🔅🔅🔅🔅🔅🔅🔅🔅🔅🔅🔅🔅🔅🔅🔅🔅🔅🔅🔅🔅</p>
+<p>🔅🔅🔅🔅🔅🔅🔅🔅🔅🔅🔅🔅🔅🔅🔅🔅🔅🔅🔅🔅🔅🔅🔅🔅🔅🔅🔅🔅🔅🔅🔅🔅🔅🔅🔅🔅🔅🔅</p>
 <p>局域网攻击-登录局域网其他电脑账号😀<br>
 1.获取对方ip<br>
 2.进行欺骗<br>
@@ -37,7 +37,7 @@
 7.将生成文件保存至root文件下<br>
 8.运行工具 hamster  （需要修改游览器端口代理）<br>
 9.访问</p>
-<p>🔅🔅🔅🔅🔅🔅🔅🔅🔅🔅🔅🔅🔅🔅🔅🔅🔅🔅🔅🔅🔅🔅🔅🔅🔅🔅🔅🔅🔅🔅🔅🔅🔅🔅🔅🔅🔅🔅🔅</p>
+<p>🔅🔅🔅🔅🔅🔅🔅🔅🔅🔅🔅🔅🔅🔅🔅🔅🔅🔅🔅🔅🔅🔅🔅🔅🔅🔅🔅🔅🔅🔅🔅🔅🔅🔅🔅🔅🔅🔅</p>
 <p>局域网攻击-获取指定ip的网页 账号密码😀<br>
 1.获取ip<br>
 2.欺骗<br>
