@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://mkp0el.coding-pages.com</id>
     <title>赖奎光</title>
-    <updated>2020-08-04T11:22:00.425Z</updated>
+    <updated>2020-08-04T11:36:16.773Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://mkp0el.coding-pages.com"/>
     <link rel="self" href="https://mkp0el.coding-pages.com/atom.xml"/>
@@ -10,41 +10,6 @@
     <logo>https://mkp0el.coding-pages.com/images/avatar.png</logo>
     <icon>https://mkp0el.coding-pages.com/favicon.ico</icon>
     <rights>All rights reserved 2020, 赖奎光</rights>
-    <entry>
-        <title type="html"><![CDATA[11]]></title>
-        <id>https://mkp0el.coding-pages.com/post/11/</id>
-        <link href="https://mkp0el.coding-pages.com/post/11/">
-        </link>
-        <updated>2020-08-04T11:21:50.000Z</updated>
-        <content type="html"><![CDATA[<!-- more -->
-<p><strong>创建本地仓库</strong><br>
-任意选择一个盘，我在E盘下创建<br>
-<img src="https://mkp0el.coding-pages.com/post-images/1596539830581.png" alt="" loading="lazy"><br>
-选择在这建立版本库，当然最好的是，先建立一个文件夹<br>
-<img src="https://mkp0el.coding-pages.com/post-images/1596531365357.png" alt="" loading="lazy"><br>
-<strong>注意：</strong> 这里不要勾选制作纯版本库<br>
-建立完成之后，会出现一个.git文件，这个文件是隐藏的，需要打开文件夹隐藏的项目才可见<br>
-<img src="https://mkp0el.coding-pages.com/post-images/1596531507043.png" alt="" loading="lazy"><br>
-这里我建立一个文本来演示<br>
-<img src="https://mkp0el.coding-pages.com/post-images/1596531573841.png" alt="" loading="lazy"><br>
-<img src="https://mkp0el.coding-pages.com/post-images/1596531600363.png" alt="" loading="lazy"><br>
-选中文本右键点击乌龟会有个添加的选项，点击添加<br>
-<img src="https://mkp0el.coding-pages.com/post-images/1596531655804.png" alt="" loading="lazy"><br>
-添加完成以后文件上会出现一个 <strong>+</strong> 加号 ，表示添加成功了<br>
-还是右键，这时候你会发现出现了一个推送，点击提交<br>
-<img src="https://mkp0el.coding-pages.com/post-images/1596531845344.png" alt="" loading="lazy"><br>
-<img src="https://mkp0el.coding-pages.com/post-images/1596531881885.png" alt="" loading="lazy"><br>
-<strong>注意：</strong>  这里的日志文件必须填！<br>
-<img src="https://mkp0el.coding-pages.com/post-images/1596531958527.png" alt="" loading="lazy"><br>
-<img src="https://mkp0el.coding-pages.com/post-images/1596531979937.png" alt="" loading="lazy"><br>
-点击提交，提示提交成功，这时候我们就可以通过乌龟来看我们的本地仓库了<br>
-<img src="https://mkp0el.coding-pages.com/post-images/1596532061391.png" alt="" loading="lazy"><br>
-<img src="https://mkp0el.coding-pages.com/post-images/1596532066626.png" alt="" loading="lazy"><br>
-右键选择乌龟，选择版本库游览器，里面就会出现刚刚提交的文件了<br>
-<img src="https://mkp0el.coding-pages.com/post-images/1596532144091.png" alt="" loading="lazy"><br>
-这里是版本日志，点击版本就可以查看</p>
-]]></content>
-    </entry>
     <entry>
         <title type="html"><![CDATA[Git向本地添加文件，修改内容，删除以及退送到远程仓库]]></title>
         <id>https://mkp0el.coding-pages.com/post/Git向本地添加文件，修改内容，删除以及退送到远程仓库/</id>
@@ -56,35 +21,35 @@
 任意选择一个盘，我在E盘下创建<br>
 <img src="https://mkp0el.coding-pages.com/post-images/1596539830581.png" alt="" loading="lazy"><br>
 选择在这建立版本库，当然最好的是，先建立一个文件夹<br>
-<img src="https://mkp0el.coding-pages.com/post-images/1596531365357.png" alt="" loading="lazy"><br>
+<img src="https://mkp0el.coding-pages.com/post-images/1596540394584.png" alt="" loading="lazy"><br>
 <strong>注意：</strong> 这里不要勾选制作纯版本库<br>
 建立完成之后，会出现一个.git文件，这个文件是隐藏的，需要打开文件夹隐藏的项目才可见<br>
-<img src="https://mkp0el.coding-pages.com/post-images/1596531507043.png" alt="" loading="lazy"><br>
+<img src="https://mkp0el.coding-pages.com/post-images/1596540405084.png" alt="" loading="lazy"><br>
 这里我建立一个文本来演示<br>
-<img src="https://mkp0el.coding-pages.com/post-images/1596531573841.png" alt="" loading="lazy"><br>
-<img src="https://mkp0el.coding-pages.com/post-images/1596531600363.png" alt="" loading="lazy"><br>
+<img src="https://mkp0el.coding-pages.com/post-images/1596540412702.png" alt="" loading="lazy"><br>
+<img src="https://mkp0el.coding-pages.com/post-images/1596540433854.png" alt="" loading="lazy"><br>
 选中文本右键点击乌龟会有个添加的选项，点击添加<br>
-<img src="https://mkp0el.coding-pages.com/post-images/1596531655804.png" alt="" loading="lazy"><br>
+<img src="https://mkp0el.coding-pages.com/post-images/1596540446771.png" alt="" loading="lazy"><br>
 添加完成以后文件上会出现一个 <strong>+</strong> 加号 ，表示添加成功了<br>
-还是右键，这时候你会发现出现了一个推送，点击提交<br>
-<img src="https://mkp0el.coding-pages.com/post-images/1596531845344.png" alt="" loading="lazy"><br>
-<img src="https://mkp0el.coding-pages.com/post-images/1596531881885.png" alt="" loading="lazy"><br>
+还是右键，这时候你会发现出现了一个提交，点击提交<br>
+<img src="https://mkp0el.coding-pages.com/post-images/1596540465821.png" alt="" loading="lazy"><br>
+<img src="https://mkp0el.coding-pages.com/post-images/1596540478821.png" alt="" loading="lazy"><br>
 <strong>注意：</strong>  这里的日志文件必须填！<br>
-<img src="https://mkp0el.coding-pages.com/post-images/1596531958527.png" alt="" loading="lazy"><br>
-<img src="https://mkp0el.coding-pages.com/post-images/1596531979937.png" alt="" loading="lazy"><br>
+<img src="https://mkp0el.coding-pages.com/post-images/1596540495900.png" alt="" loading="lazy"><br>
+<img src="https://mkp0el.coding-pages.com/post-images/1596540503840.png" alt="" loading="lazy"><br>
 点击提交，提示提交成功，这时候我们就可以通过乌龟来看我们的本地仓库了<br>
-<img src="https://mkp0el.coding-pages.com/post-images/1596532061391.png" alt="" loading="lazy"><br>
-<img src="https://mkp0el.coding-pages.com/post-images/1596532066626.png" alt="" loading="lazy"><br>
+<img src="https://mkp0el.coding-pages.com/post-images/1596540511750.png" alt="" loading="lazy"><br>
+<img src="https://mkp0el.coding-pages.com/post-images/1596540524649.png" alt="" loading="lazy"><br>
 右键选择乌龟，选择版本库游览器，里面就会出现刚刚提交的文件了<br>
-<img src="https://mkp0el.coding-pages.com/post-images/1596532144091.png" alt="" loading="lazy"><br>
+<img src="https://mkp0el.coding-pages.com/post-images/1596540539663.png" alt="" loading="lazy"><br>
 这里是版本日志，点击版本就可以查看</p>
 <!-- more -->
 <p><strong>修改内容</strong><br>
 修改文本内容<br>
-<img src="https://mkp0el.coding-pages.com/post-images/1596532297911.png" alt="" loading="lazy"><br>
-<img src="https://mkp0el.coding-pages.com/post-images/1596532302743.png" alt="" loading="lazy"><br>
+<img src="https://mkp0el.coding-pages.com/post-images/1596540843443.png" alt="" loading="lazy"><br>
+<img src="https://mkp0el.coding-pages.com/post-images/1596540873743.png" alt="" loading="lazy"><br>
 会发现文件上出现了红色感叹号，这是提示你，你的文件已经被修改过了，和仓库里有冲突<br>
-<img src="https://mkp0el.coding-pages.com/post-images/1596532400172.png" alt="" loading="lazy"><br>
+<img src="https://mkp0el.coding-pages.com/post-images/1596540912979.png" alt="" loading="lazy"><br>
 我们右键提交，就修改完成了，再打开版本游览器查看一下<br>
 <img src="https://mkp0el.coding-pages.com/post-images/1596532515255.png" alt="" loading="lazy"><br>
 删除有两个方法，一是直接删除文件，二是去乌龟里删除<br>
