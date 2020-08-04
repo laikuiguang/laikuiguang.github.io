@@ -1,22 +1,52 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>http://mkp0el.coding-pages.com/</id>
+    <id>https://mkp0el.coding-pages.com/</id>
     <title>赖奎光</title>
-    <updated>2020-08-04T03:30:21.959Z</updated>
+    <updated>2020-08-04T08:45:26.841Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
-    <link rel="alternate" href="http://mkp0el.coding-pages.com/"/>
-    <link rel="self" href="http://mkp0el.coding-pages.com/atom.xml"/>
+    <link rel="alternate" href="https://mkp0el.coding-pages.com/"/>
+    <link rel="self" href="https://mkp0el.coding-pages.com/atom.xml"/>
     <subtitle>你我山巅自相逢</subtitle>
-    <logo>http://mkp0el.coding-pages.com/images/avatar.png</logo>
-    <icon>http://mkp0el.coding-pages.com/favicon.ico</icon>
+    <logo>https://mkp0el.coding-pages.com/images/avatar.png</logo>
+    <icon>https://mkp0el.coding-pages.com/favicon.ico</icon>
     <rights>All rights reserved 2020, 赖奎光</rights>
     <entry>
+        <title type="html"><![CDATA[Git保姆式安装与配置]]></title>
+        <id>https://mkp0el.coding-pages.com/post/Git安装与配置/</id>
+        <link href="https://mkp0el.coding-pages.com/post/Git安装与配置/">
+        </link>
+        <updated>2020-08-04T08:09:16.000Z</updated>
+        <content type="html"><![CDATA[<!-- more -->
+<p><strong>1.关于Git的安装其实是挺简单的</strong><br>
+<strong>准备工具：</strong></p>
+<!-- more -->
+<p>手，Git安装包，乌龟（TortoiseGit），以及乌龟语言包<br>
+<img src="https://mkp0el.coding-pages.com//post-images/1596529250707.png" alt="" loading="lazy"><br>
+首先我们去官网下载Git安装包，官网网址：https://git-scm.com/<br>
+<img src="https://mkp0el.coding-pages.com//post-images/1596528985598.png" alt="" loading="lazy"><br>
+下载完成后安装，闭着眼睛一路点下去，安装完成以后，右键我们的桌面<br>
+<img src="https://mkp0el.coding-pages.com//post-images/1596529410417.png" alt="" loading="lazy"><br>
+会发现有一个Git自带的图形化界面，以及一个命令界面<br>
+<img src="https://mkp0el.coding-pages.com//post-images/1596529545762.png" alt="" loading="lazy"><br>
+下载乌龟，这也是一个图形界面，但是这个图形界面更加便于我们操作，安装（先安装乌龟）<br>
+<img src="https://mkp0el.coding-pages.com//post-images/1596529841931.png" alt="" loading="lazy"><br>
+路径默认路径就好了，如果你Git安装改了路径，这个也要改，一路点下去<br>
+<img src="https://mkp0el.coding-pages.com//post-images/1596530341946.png" alt="" loading="lazy"><br>
+这里我们改为SSH，其他的不要变，直接继续安装，安装完成后我们安装语言包，点击直接安装就行了<br>
+<img src="https://mkp0el.coding-pages.com//post-images/1596530482478.png" alt="" loading="lazy"><br>
+右键桌面点击乌龟设置，在这里切换成中文<br>
+<img src="https://mkp0el.coding-pages.com//post-images/1596530519742.png" alt="" loading="lazy"><br>
+<img src="https://mkp0el.coding-pages.com//post-images/1596530523046.png" alt="" loading="lazy"><br>
+这个我就不演示了，基本配置就配置完了😉</p>
+]]></content>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[ARP攻击]]></title>
-        <id>http://mkp0el.coding-pages.com/post/ARP攻击/</id>
-        <link href="http://mkp0el.coding-pages.com/post/ARP攻击/">
+        <id>https://mkp0el.coding-pages.com/post/ARP攻击/</id>
+        <link href="https://mkp0el.coding-pages.com/post/ARP攻击/">
         </link>
         <updated>2020-08-03T13:33:16.000Z</updated>
-        <content type="html"><![CDATA[<p><img src="http://mkp0el.coding-pages.com//post-images/1596463763131.jpg" alt="" loading="lazy"><br>
+        <content type="html"><![CDATA[<p><img src="https://mkp0el.coding-pages.com//post-images/1596463763131.jpg" alt="" loading="lazy"><br>
 局域网攻击😀<br>
 1.获取本机网卡 ifconfig<br>
 2.获取网关以内存在的活跃ip地址  nmap -sP  网关<br>
