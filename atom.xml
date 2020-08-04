@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>https://mkp0el.coding-pages.com</id>
+    <id>https://mkp0el.coding-pages.com/</id>
     <title>赖奎光</title>
-    <updated>2020-08-04T11:41:28.482Z</updated>
+    <updated>2020-08-04T11:42:30.549Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
-    <link rel="alternate" href="https://mkp0el.coding-pages.com"/>
+    <link rel="alternate" href="https://mkp0el.coding-pages.com/"/>
     <link rel="self" href="https://mkp0el.coding-pages.com/atom.xml"/>
     <subtitle>你我山巅自相逢</subtitle>
     <logo>https://mkp0el.coding-pages.com/images/avatar.png</logo>
@@ -19,51 +19,51 @@
         <content type="html"><![CDATA[<!-- more -->
 <p><strong>创建本地仓库</strong><br>
 任意选择一个盘，我在E盘下创建<br>
-<img src="https://mkp0el.coding-pages.com/post-images/1596541161116.png" alt="" loading="lazy"><br>
+<img src="https://mkp0el.coding-pages.com//post-images/1596541161116.png" alt="" loading="lazy"><br>
 选择在这建立版本库，当然最好的是，先建立一个文件夹<br>
-<img src="https://mkp0el.coding-pages.com/post-images/1596540394584.png" alt="" loading="lazy"><br>
+<img src="https://mkp0el.coding-pages.com//post-images/1596540394584.png" alt="" loading="lazy"><br>
 <strong>注意：</strong> 这里不要勾选制作纯版本库<br>
 建立完成之后，会出现一个.git文件，这个文件是隐藏的，需要打开文件夹隐藏的项目才可见<br>
-<img src="https://mkp0el.coding-pages.com/post-images/1596540405084.png" alt="" loading="lazy"><br>
+<img src="https://mkp0el.coding-pages.com//post-images/1596540405084.png" alt="" loading="lazy"><br>
 这里我建立一个文本来演示<br>
-<img src="https://mkp0el.coding-pages.com/post-images/1596540412702.png" alt="" loading="lazy"><br>
-<img src="https://mkp0el.coding-pages.com/post-images/1596540433854.png" alt="" loading="lazy"><br>
+<img src="https://mkp0el.coding-pages.com//post-images/1596540412702.png" alt="" loading="lazy"><br>
+<img src="https://mkp0el.coding-pages.com//post-images/1596540433854.png" alt="" loading="lazy"><br>
 选中文本右键点击乌龟会有个添加的选项，点击添加<br>
-<img src="https://mkp0el.coding-pages.com/post-images/1596540446771.png" alt="" loading="lazy"><br>
+<img src="https://mkp0el.coding-pages.com//post-images/1596540446771.png" alt="" loading="lazy"><br>
 添加完成以后文件上会出现一个 <strong>+</strong> 加号 ，表示添加成功了<br>
 还是右键，这时候你会发现出现了一个提交，点击提交<br>
-<img src="https://mkp0el.coding-pages.com/post-images/1596540465821.png" alt="" loading="lazy"><br>
-<img src="https://mkp0el.coding-pages.com/post-images/1596540478821.png" alt="" loading="lazy"><br>
+<img src="https://mkp0el.coding-pages.com//post-images/1596540465821.png" alt="" loading="lazy"><br>
+<img src="https://mkp0el.coding-pages.com//post-images/1596540478821.png" alt="" loading="lazy"><br>
 <strong>注意：</strong>  这里的日志文件必须填！<br>
-<img src="https://mkp0el.coding-pages.com/post-images/1596540495900.png" alt="" loading="lazy"><br>
-<img src="https://mkp0el.coding-pages.com/post-images/1596540503840.png" alt="" loading="lazy"><br>
+<img src="https://mkp0el.coding-pages.com//post-images/1596540495900.png" alt="" loading="lazy"><br>
+<img src="https://mkp0el.coding-pages.com//post-images/1596540503840.png" alt="" loading="lazy"><br>
 点击提交，提示提交成功，这时候我们就可以通过乌龟来看我们的本地仓库了<br>
-<img src="https://mkp0el.coding-pages.com/post-images/1596540511750.png" alt="" loading="lazy"><br>
-<img src="https://mkp0el.coding-pages.com/post-images/1596540524649.png" alt="" loading="lazy"><br>
+<img src="https://mkp0el.coding-pages.com//post-images/1596540511750.png" alt="" loading="lazy"><br>
+<img src="https://mkp0el.coding-pages.com//post-images/1596540524649.png" alt="" loading="lazy"><br>
 右键选择乌龟，选择版本库游览器，里面就会出现刚刚提交的文件了<br>
-<img src="https://mkp0el.coding-pages.com/post-images/1596540539663.png" alt="" loading="lazy"><br>
+<img src="https://mkp0el.coding-pages.com//post-images/1596540539663.png" alt="" loading="lazy"><br>
 这里是版本日志，点击版本就可以查看</p>
 <!-- more -->
 <p><strong>修改内容</strong><br>
 修改文本内容<br>
-<img src="https://mkp0el.coding-pages.com/post-images/1596540843443.png" alt="" loading="lazy"><br>
-<img src="https://mkp0el.coding-pages.com/post-images/1596540873743.png" alt="" loading="lazy"><br>
+<img src="https://mkp0el.coding-pages.com//post-images/1596540843443.png" alt="" loading="lazy"><br>
+<img src="https://mkp0el.coding-pages.com//post-images/1596540873743.png" alt="" loading="lazy"><br>
 会发现文件上出现了红色感叹号，这是提示你，你的文件已经被修改过了，和仓库里有冲突<br>
-<img src="https://mkp0el.coding-pages.com/post-images/1596540912979.png" alt="" loading="lazy"><br>
+<img src="https://mkp0el.coding-pages.com//post-images/1596540912979.png" alt="" loading="lazy"><br>
 我们右键提交，就修改完成了，再打开版本游览器查看一下<br>
-<img src="https://mkp0el.coding-pages.com/post-images/1596532515255.png" alt="" loading="lazy"><br>
+<img src="https://mkp0el.coding-pages.com//post-images/1596532515255.png" alt="" loading="lazy"><br>
 删除有两个方法，一是直接删除文件，二是去乌龟里删除<br>
-<img src="https://mkp0el.coding-pages.com/post-images/1596532621012.png" alt="" loading="lazy"><br>
+<img src="https://mkp0el.coding-pages.com//post-images/1596532621012.png" alt="" loading="lazy"><br>
 选择文件，右键，乌龟，选择删除，确认删除<br>
-<img src="https://mkp0el.coding-pages.com/post-images/1596532698590.png" alt="" loading="lazy"><br>
+<img src="https://mkp0el.coding-pages.com//post-images/1596532698590.png" alt="" loading="lazy"><br>
 其实这里我们删除了，但是版本库游览器里面还是可以看到的，因为我们本地仓库里并没有删除<br>
 我们可以右键乌龟选择还原<br>
-<img src="https://mkp0el.coding-pages.com/post-images/1596532868478.png" alt="" loading="lazy"><br>
-<img src="https://mkp0el.coding-pages.com/post-images/1596532874091.png" alt="" loading="lazy"><br>
+<img src="https://mkp0el.coding-pages.com//post-images/1596532868478.png" alt="" loading="lazy"><br>
+<img src="https://mkp0el.coding-pages.com//post-images/1596532874091.png" alt="" loading="lazy"><br>
 怎么本地仓库呢，删除文件以后，我们点提交，之后再去查看版本游览器会发现，文件不见了，<br>
 就是删除成功了<br>
-<img src="https://mkp0el.coding-pages.com/post-images/1596533004521.png" alt="" loading="lazy"><br>
-<img src="https://mkp0el.coding-pages.com/post-images/1596533010620.png" alt="" loading="lazy"></p>
+<img src="https://mkp0el.coding-pages.com//post-images/1596533004521.png" alt="" loading="lazy"><br>
+<img src="https://mkp0el.coding-pages.com//post-images/1596533010620.png" alt="" loading="lazy"></p>
 <p><strong>退送到远程仓库</strong></p>
 ]]></content>
     </entry>
@@ -77,22 +77,22 @@
 <p><strong>1.关于Git的安装其实是挺简单的</strong></p>
 <!-- more -->
 <p><strong>准备工具：</strong> 手，Git安装包，乌龟（TortoiseGit），以及乌龟语言包<br>
-<img src="https://mkp0el.coding-pages.com/post-images/1596529250707.png" alt="" loading="lazy"><br>
+<img src="https://mkp0el.coding-pages.com//post-images/1596529250707.png" alt="" loading="lazy"><br>
 首先我们去官网下载Git安装包，官网网址：https://git-scm.com/<br>
-<img src="https://mkp0el.coding-pages.com/post-images/1596528985598.png" alt="" loading="lazy"><br>
+<img src="https://mkp0el.coding-pages.com//post-images/1596528985598.png" alt="" loading="lazy"><br>
 下载完成后安装，闭着眼睛一路点下去，安装完成以后，右键我们的桌面<br>
-<img src="https://mkp0el.coding-pages.com/post-images/1596529410417.png" alt="" loading="lazy"><br>
+<img src="https://mkp0el.coding-pages.com//post-images/1596529410417.png" alt="" loading="lazy"><br>
 会发现有一个Git自带的图形化界面，以及一个命令界面<br>
-<img src="https://mkp0el.coding-pages.com/post-images/1596529545762.png" alt="" loading="lazy"><br>
+<img src="https://mkp0el.coding-pages.com//post-images/1596529545762.png" alt="" loading="lazy"><br>
 下载乌龟，这也是一个图形界面，但是这个图形界面更加便于我们操作，安装（先安装乌龟）<br>
-<img src="https://mkp0el.coding-pages.com/post-images/1596529841931.png" alt="" loading="lazy"><br>
+<img src="https://mkp0el.coding-pages.com//post-images/1596529841931.png" alt="" loading="lazy"><br>
 路径默认路径就好了，如果你Git安装改了路径，这个也要改，一路点下去<br>
-<img src="https://mkp0el.coding-pages.com/post-images/1596530341946.png" alt="" loading="lazy"><br>
+<img src="https://mkp0el.coding-pages.com//post-images/1596530341946.png" alt="" loading="lazy"><br>
 这里我们改为SSH，其他的不要变，直接继续安装，安装完成后我们安装语言包，点击直接安装就行了<br>
-<img src="https://mkp0el.coding-pages.com/post-images/1596530482478.png" alt="" loading="lazy"><br>
+<img src="https://mkp0el.coding-pages.com//post-images/1596530482478.png" alt="" loading="lazy"><br>
 右键桌面点击乌龟设置，在这里切换成中文<br>
-<img src="https://mkp0el.coding-pages.com/post-images/1596530519742.png" alt="" loading="lazy"><br>
-<img src="https://mkp0el.coding-pages.com/post-images/1596530523046.png" alt="" loading="lazy"><br>
+<img src="https://mkp0el.coding-pages.com//post-images/1596530519742.png" alt="" loading="lazy"><br>
+<img src="https://mkp0el.coding-pages.com//post-images/1596530523046.png" alt="" loading="lazy"><br>
 这个我就不演示了，基本配置就配置完了😉</p>
 ]]></content>
     </entry>
@@ -102,7 +102,7 @@
         <link href="https://mkp0el.coding-pages.com/post/ARP攻击/">
         </link>
         <updated>2020-08-03T13:33:16.000Z</updated>
-        <content type="html"><![CDATA[<p><img src="https://mkp0el.coding-pages.com/post-images/1596463763131.jpg" alt="" loading="lazy"><br>
+        <content type="html"><![CDATA[<p><img src="https://mkp0el.coding-pages.com//post-images/1596463763131.jpg" alt="" loading="lazy"><br>
 局域网攻击😀<br>
 1.获取本机网卡 ifconfig<br>
 2.获取网关以内存在的活跃ip地址  nmap -sP  网关<br>
