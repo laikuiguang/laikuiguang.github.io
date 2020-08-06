@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://mkp0el.coding-pages.com/</id>
     <title>赖奎光</title>
-    <updated>2020-08-06T00:22:51.742Z</updated>
+    <updated>2020-08-06T00:25:05.849Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://mkp0el.coding-pages.com/"/>
     <link rel="self" href="https://mkp0el.coding-pages.com/atom.xml"/>
@@ -50,8 +50,8 @@ Index of /mail<br>
 “Index of /cgi-bin”<br>
 “Index of /logs”<br>
 “Index of /config”<br>
-（包含引号）<br>
-<strong>[利用“inurl:”或 “allinurl:” 寻找有漏洞的网站或服务器]</strong><br>
+（包含引号）</p>
+<p><strong>[利用“inurl:”或 “allinurl:” 寻找有漏洞的网站或服务器]</strong><br>
 a、利用“allinurl:winnt/system32/” 查询：列出的服务器上本来应该受限制的诸如“system32” 等目录，如果你运气足够好，你会发现“system32” 目录里的“cmd.exe” 文件，并能执行他，接下来就是提升权限并攻克了。<br>
 b、 查询“allinurl:wwwboard/passwd.txt”将列出所有有“WWWBoard Password vulnerability”漏洞的服务器，阅读更多请参见下面链接。http: //www.securiteam.com/exploits/2BUQ4S0SAW.html<br>
 c、查询“inurl:.bash_history” 将列出互联网上可以看见 “inurl:.bash_history” 文件的服务器。这是一个命令历史文件，这个文件包含了管理员执行的命令，有时会包含一些敏感信息比如管理员键入的密码。<br>
@@ -68,8 +68,8 @@ inurl:webeditor.php<br>
 inurl:file_upload.php<br>
 inurl:gov filetype:xls “restricted”<br>
 index of ftp +.mdb allinurl:/cgi-bin/ +mailto<br>
-（以上查询包含引号）<br>
-<strong>[利用“intitle:”和“allintitle:” 寻找有漏洞的服务器]</strong><br>
+（以上查询包含引号）</p>
+<p><strong>[利用“intitle:”和“allintitle:” 寻找有漏洞的服务器]</strong><br>
 a、通过 **[allintitle: “index of /root”] ** 查询列出有“root”目录存取权限的服务器的列表，这个目录经常包含敏感信息，通过这些信息服务器可能会被轻易攻克。<br>
 b、通过 **[allintitle: “index of /admin”] ** 查询列出有“admin”目录列表权限的服务器的，绝大部分web 程序使用“admin”用户名去储存管理员权限。这个目录下的敏感信息可能会被利用来轻易地攻克服务器。</p>
 <p><strong>inurl:</strong><br>
