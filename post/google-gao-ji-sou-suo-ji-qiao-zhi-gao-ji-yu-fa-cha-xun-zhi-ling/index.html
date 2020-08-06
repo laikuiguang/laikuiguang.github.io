@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<html>
+        <head>
+        <meta name="viewport" content="width=device-width,minimum-scale=1,maximum-scale=1,initial-scale=1,user-scalable=no" />
+        <meta charset="utf-8">
+        <title>Google高级搜索技巧之高级语法查询指令 | 赖奎光</title>
+        <link rel="stylesheet" href="https://mkp0el.coding-pages.com//styles/main.css">
+        <link rel="stylesheet" href="https://at.alicdn.com/t/font_1306644_jwtuc2zzbrd.css">
+        <link href="https://cdn.bootcss.com/animate.css/3.7.2/animate.min.css" rel="stylesheet">
+         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.0/katex.min.css">
+        <script src="https://cdn.staticfile.org/jquery/3.4.1/jquery.min.js"></script>
+         <script src="https://cdn.bootcss.com/highlight.js/9.15.10/highlight.min.js"></script>
+         <script >hljs.initHighlightingOnLoad();</script>
+
+    </head>
+    <body>
+              <header class="header mdui-m-b-5">      
+            <div class="container  ">
+                <div class="index-title animated fadeInDown mdui-text-center mdui-text-color-white mdui-m-b-2" style="animation-delay: 0.2s"><a href="https://mkp0el.coding-pages.com/">赖奎光</a></div>
+                <div class="mdui-text-color-white animated fadeInDown mdui-text-center  mdui-m-b-3" style="animation-delay: 0.4s">你我山巅自相逢</div>
+           
+            <nav id="nav" class="mdui-text-center animated fadeInDown" style="animation-delay: 0.6s">
+                   
+                            <li><a href="/">首页</a>
+                                <span class="nav-style top"></span>
+                                <span class="nav-style bottom"></span>
+                                <span class="nav-style left"></span>
+                                <span class="nav-style right"></span>
+                                </li>
+                    
+                            <li><a href="/archives">归档</a>
+                                <span class="nav-style top"></span>
+                                <span class="nav-style bottom"></span>
+                                <span class="nav-style left"></span>
+                                <span class="nav-style right"></span>
+                                </li>
+                    
+                            <li><a href="/tags">标签</a>
+                                <span class="nav-style top"></span>
+                                <span class="nav-style bottom"></span>
+                                <span class="nav-style left"></span>
+                                <span class="nav-style right"></span>
+                                </li>
+                    
+                            <li><a href="/post/about">关于</a>
+                                <span class="nav-style top"></span>
+                                <span class="nav-style bottom"></span>
+                                <span class="nav-style left"></span>
+                                <span class="nav-style right"></span>
+                                </li>
+                    
+                  </nav>
+                </div>
+        </header>
+        <div class="mdui-container ">
+                <div class="mdui-row">
+                        <div class="mdui-col-md-8 mdui-col-offset-md-2 ">
+                                <article class="mdui-p-a-2 post animated fadeIn" style="animation-delay: 0.8s;animation-duration: 2s">
+                                    <div class="post-title  mdui-m-b-1">Google高级搜索技巧之高级语法查询指令</div>
+                                    <div class="mdui-typo-body-2 mdui-m-b-2" datetime="2020-08-06 08:05:27">2020-08-06 / 20 min read</div>
+                                    <div class="mdui-m-b-2 mdui-typo post-neirong"><!-- more -->
+<p><strong>[ intitle: ]</strong><br>
+按标题搜索帮助google限定了你搜索的结果，只有那些标题含有你指定的关键词的页面会返回给你。例如“intitle: login password” 会返回标题含有login，而页面里面随便什么地方含有password的网页给你。<br>
+当 你想在标题里面搜索超过2个词的时候，你可以使用“allintitle:” ，当然也可以使用“intitle” 来代替搜索，“intitle: login intitle: password” 和“allintitle: login password”的搜索结果是一样的。</p>
+<p><strong>[ inurl: ]</strong><br>
+按 链接搜索返回那些网址url里面包含你指定关键词的页面。例如“inurl: passwd” ，返回那些网址url里面包含你指定关键词passwd的页面。同上，如果你想在网址里搜索多个关键词，你可以使用 “allinurl:”语法。例如“allinurl: etc/passwd“ 会搜索网址里含有etc和passwd的网页，斜杠“/”会被google忽略。</p>
+<p><strong>[ site: ]</strong><br>
+语法“site:” 只搜索指定网域里的关键词，例如“exploits site:hackingspirits.com”将搜索hackingspirits.com网站上的所有包含exploits的页面。</p>
+<p><strong>[ filetype: ]</strong><br>
+按 指定文件类型即后缀搜索（例如doc、pdf或ppt等等）。例如“filetype:doc site:gov confidential”将搜索所有 .gov的政府网站上的.doc文件和含有confidential关键字的页面，或者是.doc文件里面含有关键字confidential的页面，这 意味着搜索结果将返回政府网站上所有机密的.doc文件。</p>
+<p><strong>[ link: ]</strong><br>
+按引用搜索将列出所有包含特定链接的页面，例如 “link:www.securityfocus.com”将列出所有包含指向 Securityfocus主页的网址的页面。</p>
+<p><strong>[ related: ]</strong><br>
+按相似搜索将列出与指定网页相似的页面，例如“related:www.securityfocus.com”将返回与Securityfocus筑页相似的页面。注意在“related:”与网址间不可以有空格。</p>
+<p><strong>[ cache: ]</strong><br>
+网 页快照，google将返回给你他储存下来的历史页面。如果你同时指定了其他查询词，google将在搜索结果里以高亮显示。例如查询“cache: www.hackingspirits.com guest”在返回的结果里将高亮显示”guest”。（受gfw影响，在大陆应该是用不了的）</p>
+<p><strong>[ intext: ]</strong><br>
+“intext:” 寻找特定网页里的关键字，他不理会网址和文章标标题。例如 “intext:exploits” 将只返回包含指定关键字 “exploits”的网页的地址。</p>
+<p><strong>[ phonebook: ]</strong><br>
+电话簿查询美国街道地址和电话号码信息。例如 “phonebook:Lisa+CA”将查询名字里面包含“Lisa” 并住在加州的人的所有名字。这对黑客使用社会工程学去挖掘个人信息是很有用的。</p>
+<p><strong>[Index of]</strong><br>
+利用“Index of ”语法去发现允许目录浏览的web网站，就象在本地的普通目录一样。下面是一些有趣的查询：<br>
+Index of /admin<br>
+Index of /passwd<br>
+Index of /password<br>
+Index of /mail<br>
+“Index of /” +passwd<br>
+“Index of /” +password.txt<br>
+“Index of /” +.htaccess<br>
+“Index of /root”<br>
+“Index of /cgi-bin”<br>
+“Index of /logs”<br>
+“Index of /config”<br>
+（包含引号）<br>
+<strong>[利用“inurl:”或 “allinurl:” 寻找有漏洞的网站或服务器]</strong><br>
+a、利用“allinurl:winnt/system32/” 查询：列出的服务器上本来应该受限制的诸如“system32” 等目录，如果你运气足够好，你会发现“system32” 目录里的“cmd.exe” 文件，并能执行他，接下来就是提升权限并攻克了。<br>
+b、 查询“allinurl:wwwboard/passwd.txt”将列出所有有“WWWBoard Password vulnerability”漏洞的服务器，阅读更多请参见下面链接。http: //www.securiteam.com/exploits/2BUQ4S0SAW.html<br>
+c、查询“inurl:.bash_history” 将列出互联网上可以看见 “inurl:.bash_history” 文件的服务器。这是一个命令历史文件，这个文件包含了管理员执行的命令，有时会包含一些敏感信息比如管理员键入的密码。<br>
+d、查询“inurl:config.txt” 将看见网上暴露了“inurl:config.txt”文件的服务器，这个文件包含了经过哈希编码的管理员的密码和数据库存取的关键信息。<br>
+e、还有一些其他一些使用“inurl:”和“allinurl:”查询组合的例子。<br>
+inurl:admin filetype:txt<br>
+inurl:admin filetype:db<br>
+inurl:admin filetype:cfg<br>
+inurl:mysql filetype:cfg<br>
+inurl:passwd filetype:txt<br>
+inurl:”wwwroot/*.”<br>
+inurl:adpassword.txt<br>
+inurl:webeditor.php<br>
+inurl:file_upload.php<br>
+inurl:gov filetype:xls “restricted”<br>
+index of ftp +.mdb allinurl:/cgi-bin/ +mailto<br>
+（以上查询包含引号）<br>
+<strong>[利用“intitle:”和“allintitle:” 寻找有漏洞的服务器]</strong><br>
+a、通过 **[allintitle: “index of /root”] ** 查询列出有“root”目录存取权限的服务器的列表，这个目录经常包含敏感信息，通过这些信息服务器可能会被轻易攻克。<br>
+b、通过 **[allintitle: “index of /admin”] ** 查询列出有“admin”目录列表权限的服务器的，绝大部分web 程序使用“admin”用户名去储存管理员权限。这个目录下的敏感信息可能会被利用来轻易地攻克服务器。</p>
+<p><strong>inurl:</strong><br>
+inurl: 是駭客重要的搜尋方法，可搜到網址包括的關鍵字，</p>
+<p>例如填上 allinurl:login password 作搜尋，便會很易找到有 login 和 password 的網頁。</p>
+<p>——————————————————————————————-</p>
+<p><strong>filetype:</strong><br>
+filetype: 是駭客專用語法，例如想找 mdb 的數據庫檔案，可用 password filetype:mdb 作搜尋，</p>
+<p>便會找到密碼文件，進階用法可配合 inurl: 使用，例如 girl filetype:jpg site:com 便可搜到所有標</p>
+<p>題 .com 網站，而檔案為 girl.jp 或網頁內容有 girl 字串的。</p>
+<p>——————————————————————————————-</p>
+<p><strong>Index of /admin</strong><br>
+搜到的結果大多數是容野峇嵺@ index browsing 的網站，隨便按下一個連結便看到網站的資料夾和</p>
+<p>檔案分佈。<br>
+——————————————————————————————-</p>
+<p>“Index of /” +password.txt<br>
+有些站長會將密碼儲存成 password.txt 檔案，如配合 index browsing 的弁遄A將 google 的關</p>
+<p>鍵字串成 “Index of /” +password.txt 作搜尋，便找到很多 password.txt<br>
+——————————————————————————————-</p>
+<p>以下還有更多輸入搜尋法，有時間可自行玩玩！</p>
+<p>“Index of /admin”<br>
+“Index of /password”<br>
+“Index of /mail”<br>
+“Index of /” +passwd<br>
+“Index of /” +password.txt<br>
+“Index of /” +.htaccess<br>
+index of ftp +.mdb allinurl:/cgi-bin/ +mailto</p>
+<p>administrators.pwd.index<br>
+authors.pwd.index<br>
+service.pwd.index<br>
+filetype:config web<br>
+gobal.asax index</p>
+<p>allintitle: “index of/admin”<br>
+allintitle: “index of/root”<br>
+allintitle: sensitive filetype:doc<br>
+allintitle: restricted filetype :mail<br>
+allintitle: restricted filetype:doc site:gov</p>
+<p>inurl:passwd filetype:txt<br>
+inurl:admin filetype:db<br>
+inurl:iisadmin<br>
+inurl:”auth_user_file.txt”<br>
+inurl:”wwwroot/*.”</p>
+<p>top secret site:mil<br>
+confidential site:mil</p>
+<p>allinurl: winnt/system32/ (get cmd.exe)<br>
+allinurl:/bash_history</p>
+<p>intitle:”Index of” .sh_history<br>
+intitle:”Index of” .bash_history<br>
+intitle:”index of” passwd<br>
+intitle:”index of” people.lst<br>
+intitle:”index of” pwd.db<br>
+intitle:”index of” etc/shadow<br>
+intitle:”index of” spwd<br>
+intitle:”index of” master.passwd<br>
+intitle:”index of” htpasswd<br>
+intitle:”index of” members OR accounts<br>
+intitle:”index of” user_carts OR user_cart</p>
+<p>google上的黑客语法<br>
+察看基本情况：<br>
+inurl:*.asp 返回一些基本信息<br>
+site:xx.com 返回所有与该有关的url<br>
+link:xx.com 返回所有与该站做了连接的站<br>
+site:xx.comfiletype:txt 查找TXT文件 其他的依次内推</p>
+<p><strong>查找后台</strong><br>
+site:xx.com intext:管理<br>
+site:xx.com inurl:login<br>
+site:xx.com intitle:后台</p>
+<p><strong>查看服务器使用的程序</strong><br>
+site:xx.com filetype:asp<br>
+site:xx.com filetype:php<br>
+site:xx.com filetype:jsp<br>
+site:xx.com filetype:aspx</p>
+<p><strong>查看上传漏洞：</strong><br>
+site:xx.com inurl:file<br>
+site:xx.com inurl:load<br>
+查找注射点GhostEye觉的这些指令不管在精确查找资料还是对于做SEO的朋友都是非常有用的</p>
+<p>以下是目前所有的Google搜索命令语法，它不同于Google的帮助文档，因为这里介绍了几个Google不推荐使用的命令语法。大多数的Google搜索命令语法有它特有的使用格式，希望大家能正确使用。我用不同颜色标注了不同的语法命令，绿色的较为常用的命令，黄色的是不常用但却非常有用的命令，蓝色是Google不推荐使用的命令。</p>
+<p><strong>allinanchor: anchor</strong> 是一处说明性的文字，它标注说明了这个链接可能跳转到其它的网页或跳转到当前网页的不同地方。当我们用allinanchor提交查询的时候，Google会限制搜索结果必须是那些在anchor文字里包含了我们所有查询关键词的网页。例[ allinanchor: best museums Sydney ] ,提交这个查询，Google仅仅会返回在网页anchor说明文字里边包含了关键词”best” “museums” 和”Sydney”的网面。</p>
+<p><strong>allintext:</strong> 当我们用allintext提交查询的时候，Google会限制搜索结果仅仅是在网页正文里边包含了我们所有查询关键词的网页。例［allintext: travel packing list］,提交这个查询，Google仅仅会返回在一个网页包含了三个关键词”travel” “packing”和”list”的网页。</p>
+<p><strong>allintitle:</strong> 当我们用allintitle提交查询的时候，Google会限制搜索结果仅是那些在网页标题里边包含了我们所有查询关键词的网页。例［allintitle: detect plagiarism］，提交这个查询，Google仅会返回在网页标题里边包含了”detect”和”plagiarism”这两个关键词的网页。</p>
+<p><strong>allinurl:</strong> 当我们用allinurl提交查询的时候，Google会限制搜索结果仅是那些在URL（网址）里边包含了我们所有查询关键词的网页。例［allinurl: google faq］，提交这个查询，Google仅会返回在URL里边包含了关键词”google”和”faq”的网页，象www.google.com/help /faq.html等的网页。</p>
+<p>**author: ** 当我们用author进行查询的时候，Google会限制返回结果仅仅是那些在Google论坛里边，包含了特定作者的新闻文章。在这里，作者名可以是全名，也可以是一部分或邮件地址。例［children author:john author:doe］或［children author:doe@someaddress.com］返回结果将是作者John Doe 或是 doe@someaddress.com写的，关于包含关键词children的文章。</p>
+<p><strong>bphonebook:</strong> 用bphonebook进行查询的时候，返回结果将是那些商务电话资料。</p>
+<p><strong>cache:</strong> 提交cache:url ，Google会显示当前网页的快照信息，从而替换网页的当前信息。例［cache:www.eff.org］，提交这个查询，Google会返回所有抓取的关于www.eff.org的网页快照信息。在显示的网页快照信息里边，Google会高亮显示查询关键词。（在cache:和URL之间不能有空格）</p>
+<p><strong>datarange:</strong> 当我们使用datarange进行查询的时候，Google会将查询结果限制在一个特定的时间段内，这个时间相对于网站来说，是按网站被google收录的时间算的。例　“Geri Halliwell” “Spice Girls” daterange:2450958-2450968　。这里的时间日期格式是按天文学的儒略日。（这个搜索语法Google并不推荐使用，因为它会返回一些莫名其妙的东西）</p>
+<p>**define: ** 当我们用define进行查询的时候，Google会返回包含查询关键词定义的网面。例［define: blog］，这个查询将会返回Blog的定义。</p>
+<p><strong>ext:</strong> 这是一个没有证实的语法，可以用于filetype:查找扩散名为ext的文件。</p>
+<p><strong>filetype:</strong> 当我们在查询里边包含filetype:扩展名的时候，Google会限制查询结果仅返回特定文件类型的网页。例［资产评估　 filetype:pdf］，这个查询将会返回所有文件类型为pdf的资产评估信息。其它可用的特定文件类型格式查询还有doc ,txt,ppt,xls.rtf,swf,ps等。</p>
+<p><strong>group:</strong> 当我们用group查询的时候，Google会限制我们的论坛查询结果仅是某几个固定的论坛组或是某些特定主题组的新闻文章。例［sleep group:misc.kids.moderated］，提交这个查询，Google仅会返回在用户组misc.kids.moderated里边包含了查询关键字”sleep”的文章。</p>
+<p><strong>id:</strong> 又是一个没有证实的语法，效果很一般。</p>
+<p><strong>inanchor:</strong> 当我们用inanchor提交查询的时候，Google会限制结果是那些在网页anchor链接里边包含了查询关键词的网页。例［restaurants inanchor:gourmet］，提交这个查询，Google会查询那些在anchor信息里包含了关键词”restaurants”和关键词”gourmet”的网页。</p>
+<p>**info: ** 提交info:url，将会显示需要查询网站的一些信息。例［info:gothotel.com］，提交这个查询，将会返回网站gothotel.com的所有信息。</p>
+<p><strong>insubject:</strong> 当我们用insubject进行查询的时候，Google会限制论坛搜索结果仅是那些在主题里边包含了查询关键词的网面。［insubject:”falling asleep”］，提交这个查询，Google会返回在文章主题里边包含了”falling asleep”的文章。</p>
+<p>intext: 当我们用intext进行查询的时候，Google会返回那些在文本正文里边包含了我们查询关键词的网页。［Hamish Reid intext:pandemonia］，提交这个查询的时候，Google会返回在文本正文包含查询关键字pandemonia，在其它任何地方包含关键词”Hamish”和”Reid”的网页。（intext:后面直接跟查询关键字，不能有空格）</p>
+<p>intitle: 当我们用intitle进行查询的时候，Google会返回那些在网页标题里边包含了我们查询关键词的网页。例［flu shot intitle:help］，提交这个查询，Google会返回在网页标题包含了查询关键字”help”，而在其它任何地文包含了查询关键字”flu” 和”shot”的网页。（intitle:后面也不能有空格）</p>
+<p>inurl: 当我们用inurl进行查询的时候，Google会返回那些在URL（网址）里边包含了我们查询关键词的网页。例［inurl:print site:www.ssoooo.com］，提交这个查询，Google会查找www.ssoooo.com这个网站下面网址里边包含了查询关键词”print”的网页。</p>
+<p>link: 当我们使用link:URL提交查询的时候，Google会返回跟此URL做了链接的网站。例［link:www.ssoooo.com］，提交这个查询，我们将得到所有跟www.ssooo.com这个网站做了链接的网站。（link是个单独的语法，只能单独使用，且后面不能跟查询关键词，跟能跟 URL）</p>
+<p>location: 当我们提交location进行Google新闻查询的时候，Google仅会返回你当前指定区的跟查询关键词相关的网页。例[ queen location:canada ]，提交这个查询，Google会返回加拿大的跟查询关键词”queen”相匹配的网站。</p>
+<p>movie: 当我们用movie提交查询的时候，Google会返回跟查询关键词相关的电影信息。(当前只支持英文Google)</p>
+<p>phonebook: 当我们用phonebook进行查询的时候，Google会返回美国当地跟查询关键词相关的电话信息。（使用phonebook的时候需要指定详细的州名和地点名）例，［phonebook:smith ca］</p>
+<p>related: 用related提交查询，Google会返回跟我们要查询的网站结构内容相似的一些其它网站。例[ related:www.consumerreports.org ]，提交这个查询，Google会返回所有跟网站www.consumerreports.org结构内容相似的网站。我们也可以通过点击搜索结果后面的相似网页，来查询跟当前网页类似的网页。（related:后面不能跟空格）</p>
+<p>rphonebook: 这个查询用来搜索美国当地跟查询关键词相关的住宅电话信息。</p>
+<p>safesearch: 用safesearch提交查询的时候，Google会过滤你搜索的结果，其中过滤的内容可能包括一些色情的，暴力，赌博性质的，还有传染病毒的网页。但是它不是百分之百确保安全的。例，［safesearch:breasts］。</p>
+<p>site: 当我们用site提交查询的时候，Google会限制查询仅在某个网站，或是某个域下面进行。例［admissions site:www.lse.ac.uk］，提交这个查询仅仅会搜索网站www.lse.ac.uk下面关于admissions的信息。我们还可以限制搜索仅在域下面进行，例［javascript site:edu.cn］，提交这个查询，仅仅在教育网查询关于javascript的信息。（site:后面不能跟空格，且site命令可以配合其它命令进行）</p>
+<p>source: 当用source提交查询的时候，Google新闻会限制我们的查询仅是那些我们指定了特定ID或新闻源的网址。例［election source:new_york_times］，提交这个查询，Google将会显示纽约时报包含了查询关键词”election”的相关文章。（我们也可以通过Google news高级搜索完成查询）</p>
+<p>stocks: 当我们用stocks提交查询的时候，Google会返回跟查询关键词相关的股票信息，这些信息一般来自于其它一些专业的财经网站。</p>
+<p>store: 当我们用store提交查询的时候，Google Froogle仅会显示我们指定了store ID的结果。例［polo shirt store:llbean］，提交这个查询，仅会搜索商店L. L. Bean.跟关键词”polo” “shirt”相关的结果。（只支持英文Google）</p>
+<p>tq: 如果想查某个地方的天气如何,我们只要在Google搜索框中输入”城市名称 Tq”就可以查询到这个城市的天状况.例”北京 tq”,当然tq也可以用汉字的天气代替。</p>
+<p>weather: 当我们用weather提交查询的时候，如果我们指出一个Google可以识别的地区或城市，Google会返回该地区或城市当前的天气状况。</p>
+<p>Google 提供高级搜索方法帮助SEOer更方便的进行SEO方面的研究和分析。今天简单的介绍几款常用的搜索方法。</p>
+<p>Site的使用方式是：“Site: + 域名”。比如说：site:seomao.com。这种Google搜索的作用是获得某个域名大概的被Google收录的页面的数量，其中包括了二级域名的收录页面数量。用户也可以直接搜索某种后缀的Google收录量。比如说: site:.gov可以帮你了解政府部门网站有多少被Google收录。</p>
+<p>InURL或者AllInURL的使用方法是：“inurl：关键词” 或者“allinurl：关键词”。使用这种Google搜索方法，结果中这个关键词必须出现在这个页面的URL链接里面。如果你要搜索两个关键词同时出现的页面链接，应该用allinurl:。</p>
+<p>inurl:seo，inurl:资料 = allinurl:seo 资料</p>
+<p>InTitle或者AllInTitle的使用方法是：“inurl:关键词” 或者“allinurl:关键词”。 使用这种Google搜索方法，搜索结果中这个关键词必须出现在这个页面的标题Title里面。如果你要搜搜两个关键词同时出现的页面标题Title,应该用allintitle:。<br>
+inurl:seo，inurl:博客 = allintitle:seo 博客</p>
+<p>InText的使用方法是：“Intext:关键词”。使用这种Google搜索方法，搜索结果中这个关键词必须出现在这个页面正文的文字叙述中。比如说：intext:站内SEO</p>
+<p>星号在搜索中的含义是：可以代表任何东西。比如说你搜索：SEO * 工具。那么结果中既可能有 SEO上传工具，也可能有SEO分析工具。<br>
+Related 的使用方法是：“Related:URL链接”。使用这种Google搜索方法，搜索结果将展示与这个URL链接页面相关的页面。“相关”除了和该页面内容相关的页面外，还包括这个页面的导入链接和导出链接所指向的页面。比如说：Related:dhgate.com。</p>
+<p>Ext的使用方法是：“Ext:文件后缀”。它可以帮你搜索各种后缀格式的文件。比如说：</p>
+<p>xls (微软 Excel)<br>
+ppt (微软 PowerPoint)<br>
+doc (微软 Word)<br>
+pdf (Adobe 文件)<br>
+html or htm (HTML代码文件)<br>
+Cache的使用方法是：“cache:URL链接”。搜索显示的是某个链接在Google服务器上的缓存。很多用户不直接访问该页面，而使用缓存有2个好处：a.对于有潜在危险的页面，缓存更加安全。b.缓存有可能比直接访问网站服务器更快。c.很多页面也许已经被删除了，而缓存还存在。比如说：cache:seomao.com。</p>
+<p>Inanchor的使用方法是：inanchor:关键词。搜索结果中必须出现以这个关键词为链接关键词的链接。比如说 “inanchor:seo资料” 将显示以“SEO资料”为链接关键词的页面。此搜索时常被用来做关键词的竞争研究比较。</p>
+<p>熟练的掌握以上的几种Google高级搜索方法，并且将他们交叉使用，将让你的搜索结果更加准确和有效，比如说：</p>
+<p>“site:seomao.com 站内SEO”将帮助你更快更准确的找到SEOmao.com里面关于“站内SEO”的SEO资料。或者针对你的特殊需求使用：“site:seomao.com intitle:站内seo”， “site:seomao.com inurl:seo list”，“ site:seomao.com inurl:seo list”，“ site:seomao.com inanchor:链接”。</p>
+<p>“site.:org + 关键词”将帮助你更好的找到建立SEO外链所需要的目标网站。比如说：“site:org 搜索引擎优化”。</p>
+</div>
+                                    <div class="mdui-divider mdui-m-b-2"></div>
+                                    <div class="mdui-row-xs-2 post-fenye">
+                                       
+                                        <div class="mdui-col"> <div class="mdui-text-left"><a href="https://mkp0el.coding-pages.com/post/Google高级搜索技巧之高级语法查询指令/">Google高级搜索技巧之高级语法查询指令</a></div></div>
+                                        
+
+                                        
+                                        <div class="mdui-col"><div class="mdui-text-right "><a href="https://mkp0el.coding-pages.com/post/Git向本地添加文件，修改内容，删除以及退送到远程仓库/">Git向本地添加文件，修改内容，删除以及退送到远程仓库</a></div> </div>
+                                       
+                                      </div>
+                                   
+                                    <div class="mdui-divider mdui-m-t-2 mdui-m-b-2"></div>
+                                    
+          
+            <link rel="stylesheet" href="https://unpkg.com/gitalk/dist/gitalk.css">
+<script src="https://unpkg.com/gitalk/dist/gitalk.min.js"></script>
+
+<div id="gitalk-container"></div>
+
+<script>
+
+  var gitalk = new Gitalk({
+    clientID: '',
+    clientSecret: '',
+    repo: '',
+    owner: '',
+    admin: [''],
+    id: (location.pathname).substring(0, 49),      // Ensure uniqueness and length less than 50
+    distractionFreeMode: false  // Facebook-like distraction free mode
+  })
+
+  gitalk.render('gitalk-container')
+
+</script>
+
+          
+          
+        
+                                     <script src="https://mkp0el.coding-pages.com//media/scripts/Valine.min.js"></script>
+ <div class="comment"></div>
+
+<script>
+      new Valine({
+            el: '.comment',
+
+
+
+            path: window.location.pathname,
+            pageSize: 30,
+            avatar:'mm', 
+       })
+    </script> 
+<script>
+    if(window.location.hash){
+        var checkExist = setInterval(function() {
+           if ($(window.location.hash).length) {
+              $('html, body').animate({scrollTop: $(window.location.hash).offset().top-90}, 1000);
+              clearInterval(checkExist);
+           }
+        }, 100);
+    }
+</script>
+                                </article>
+
+                                    
+                        </div>
+                      </div>
+    
+                
+
+              </div>
+                    <footer class="footer mdui-m-t-5 mdui-text-center">
+               <nav class="social-links">
+                      <ul>
+                      
+                      
+                           
+                      
+                           
+                      
+                           
+                      
+                           
+                      
+                           
+                      
+                           
+                      
+                           
+                      
+                           
+                      
+                           
+                      
+                           
+                      
+                           
+                      
+                           
+                      </ul>
+                    </nav>
+                    <div class="copyright">
+                       <p>欢迎来到我的小黑屋</p>
+                  </div>
+                  
+              </footer>
+    </body>
+</html>
